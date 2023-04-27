@@ -1,0 +1,75 @@
+.loginheader {
+    text-align: center;
+    justify-content: center;
+  }
+  
+  
+  .login {
+    margin: 30px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .loginwrapper {
+      background-color: white;
+      width: 250px;
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      border-radius: 40px;
+      display: grid;
+  }
+  
+  
+  .appbuttons__login {
+    margin-top: 30px;
+    background-color:#00b712 ;
+    align-items: center;
+    font-size: 16px;
+    justify-content: center;
+    padding: 16px 30px;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .appdetails {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 1px solid #e7e7e7;
+    border-radius: 3px;
+    padding: 20px;
+  }
+  
+  .appbuttons__logout{
+    background-color:#00b712 ;
+    display: block;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 16px 30px;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    float: left; 
+    margin-top:30px;
+  }
+  
+  .appbuttons__createcampaign{
+    background-color:#00b712 ;
+    display: flex;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 16px 30px;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    float:right;
+    margin-top:30px;
+  }
+  
